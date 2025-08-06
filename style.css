@@ -127,7 +127,7 @@ main{
     line-height: 1.2;
     text-shadow: 0 0 10px rgba(128, 128, 128,0.418);
 }
-.description{
+.content p{
     font-size: 1.2rem;
     letter-spacing: 0.05em;
     max-width: 35rem;
@@ -174,7 +174,7 @@ main{
 }
 
 /*TABLET FRIENDLY*/
-@media (max-width: 1300px){
+@media (max-width: 1200px){
     header{
         padding: 1rem 0.5rem;
     }
@@ -208,7 +208,7 @@ main{
         margin-left: 10%;
     }
     .robot-3d{
-        scale: 0.9;
+        scale: 0.5;
         top: -25%;
         right: 0;
     }
